@@ -23,6 +23,9 @@ Angular: 6.1.7
 
 * To run the tests: npm test
 
+## Demo
+Please check out the recorded_demo (MP4) for a demo. 
+
 ## Contact: 
 pradip.interra@gmail.com
 
