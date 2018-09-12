@@ -1,0 +1,29 @@
+
+.welcome-header {
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+.card-div {
+    height: 350px;
+    width: 350px;
+    background-color: lightblue;
+    margin-left: 30%;
+    margin-top: 10%;
+
+    .form-div {
+        margin-left: 30%;
+        margin-top: 10%;
+        .user-name-field {
+            width: 200px;
+    }
+        .password-field {
+            width: 200px;
+        }
+    }
+
+    .login-button {
+        margin-left: 16%;
+        margin-top: 20px;
+    }
+}

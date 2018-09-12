@@ -1,0 +1,67 @@
+<app-sidebar></app-sidebar>
+
+<div class="dashboard-content-html-table-div">
+  <table class="dashboard-content-html-table">
+    <tr class="first-row">
+      <td height="50%" width="33%" text-align="center">
+        <div class="card">
+          <div class="card-body1">
+            <h5 class="card-title">Dashboard Widget-1</h5>
+            <p class="card-text">Some example text some example text. Some example text some example text. 
+              Some example text some example text. Some example text some example text. </p>
+            <a href="dashboard">Show Details</a>
+          </div>
+        </div>
+      </td>
+      <td height="50%" width="33%" text-align="center">
+        <div class="card">
+          <div class="card-body3">
+            <h5 class="card-title">Dashboard Widget-3</h5>
+            <p class="card-text">Some example text some example text. Some example text some example text. 
+                Some example text some example text. Some example text some example text. </p>            
+            <a href="dashboard">Show Details</a>          </div>
+        </div>
+      </td>
+      <td rowspan="2" height="100%" width="33%" text-align="center">
+        <div class="card">
+          <div class="card-body5">
+            <h5 class="card-title">Dashboard Widget-5</h5>
+            <p class="card-text">Line Graphs</p>            
+              <div class="perf-latency">
+                <app-performance [chartName]="'Chart-1'"></app-performance>
+              </div>
+            <div class="perf-iops">
+              <app-performance [chartName]="'Chart-2'"></app-performance>
+            </div>
+            <div class="perf-throughput">
+                <app-performance [chartName]="'Chart-3'"></app-performance>
+            </div>
+            <a href="dashboard" target="_top">Show Details</a>
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr class="second-row">
+      <td height="50%" width="33%" text-align="center">
+        <div class="card">
+          <div class="card-body2">
+            <h5 class="card-title">Dashboard Widget-2</h5>
+            <p class="card-text">Some example text some example text. Some example text some example text. 
+                Some example text some example text. Some example text some example text. </p>            
+                <a href="dashboard" target=none>Show Details</a>
+          </div>
+        </div>
+      </td>
+      <td height="50%" width="33%" text-align="center">
+        <div class="card">
+          <div class="card-body4">
+            <h5 class="card-title">Dashboard Widget-4</h5>
+            <p class="card-text">Some example text some example text. Some example text some example text. 
+                Some example text some example text. Some example text some example text. </p>            
+                <a href="dashboard">Show Details</a>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>

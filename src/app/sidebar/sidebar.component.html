@@ -1,0 +1,7 @@
+<!-- <h1>Curr URL:{{currentUrl}}</h1> -->
+<div class="topnav">
+    <a class="active" href="#home" routerLink="/dashboard" [class.active]="currentUrl == '/dashboard'">Home</a>
+    <a href="#posts" routerLink="/posts" [class.active]="currentUrl == '/posts'">Posts</a>
+    <a href="#misc" routerLink="/misc" [class.active]="currentUrl == '/misc'">Misc</a>
+    <a href="#logout" routerLink="/" [class.active]="currentUrl == '/'" class="logout-btn" (click)="logout()"><small>Logout</small></a>
+</div>

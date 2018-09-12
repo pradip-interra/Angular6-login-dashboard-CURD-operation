@@ -1,0 +1,16 @@
+<p class="delete-heading">
+    Delete the Post by clicking the Delete button. Please review the content of the Post before deleting.
+</p>
+  
+<div class="delete-div">
+    <div>Id: {{post.id}}</div>
+    <div>User : {{post.userId}}</div>
+    <div>Title: {{post.title}}</div>
+    <div>Post Content: {{post.body}}</div>
+</div>
+  
+<div>
+    <button class="btn btn-primary detailsbackbtn" (click)="onSubmit()"> Delete </button>
+    <button class="btn btn-primary detailsbackbtn" (click)="onCancel()"> Cancel </button>
+</div>
+  

@@ -1,27 +1,28 @@
 # MySampleCURDApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+This app is on Angular6, having a simplistic login mechanism (supports only one user with cred as admin/admin). It has a dashboard and one CURD operation of Posts. It uses REST API to communicate to a dummy server. 
 
-## Development server
+## Dependencies
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Angular CLI: 6.2.1
+<b>Node: 8.11.1</b>
+OS: win32 x64
+Angular: 6.1.7
+... animations, common, compiler, compiler-cli, core, forms
+... http, language-service, platform-browser
+... platform-browser-dynamic, router
 
-## Code scaffolding
+## How to?
+* npm install // to install all the dependencies
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* npm start   // to start off the program
 
-## Build
+* Now open browser to <b>http://localhost:4200/</b>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* Provide username as <b>admin</b>, password as <b>admin</b>. (Note: Both are <b>admin</b>).
 
-## Running unit tests
+* To run the tests: npm test
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Contact: 
+pradip.interra@gmail.com
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

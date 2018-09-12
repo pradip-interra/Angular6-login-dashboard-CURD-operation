@@ -1,0 +1,32 @@
+.inventory-table-header {
+    background: grey;
+}   
+
+.post-grid-div {
+    margin: 10px;
+    text-align: center;
+}
+.action-buttons {
+    background: lightblue;
+    .info-message {
+        margin-left: 5px;
+        font-style: oblique;
+    }
+    &> button {
+        margin-left: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: #4CAF50;
+    }
+}
+
+.error-panel {
+    ul {
+        li {
+            list-style-type: none;
+            margin: 10px;
+            padding: 10px;
+        }
+    }
+}
+
